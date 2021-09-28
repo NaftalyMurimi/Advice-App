@@ -3,12 +3,16 @@
     height: 100vh;
     background-color: darkorchid;
     border: 5px solid yellowgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 .small{
     width: 60%;
     height: 200px;
-    margin-top: 50px;
-    margin-left: 15%;
+    
+    margin-left: 20%;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
     Geneva, Verdana, sans-serif;
