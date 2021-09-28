@@ -1,4 +1,4 @@
-
+import './Advice.css'
 
 import Advice from './Advice';
 
