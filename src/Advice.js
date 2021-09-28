@@ -31,7 +31,7 @@ const [seek, setSeek] = useState('');
   return (
     <div className="advise">
      <div className="small">
-       <h2>{Advice}</h2>
+       <p>{Advice}</p>
       <button onClick={Refresh}>Seek Advice </button> 
       </div>
      
