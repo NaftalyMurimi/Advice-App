@@ -1,0 +1,21 @@
+.advise{
+    
+    height: 300px;
+    background-color: darkorchid;
+    border: 5px solid yellowgreen;
+}
+.small{
+    width: 45%;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 25%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+    border: 5px solid yellowgreen;
+    background-color: goldenrod;
+    
+}
+button{
+    background-color: cadetblue;
+    margin-left: 20px;
+}
