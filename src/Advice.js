@@ -30,7 +30,7 @@ const [seek, setSeek] = useState('');
         
   return (
     <div className="small">
-    <img src={"naf.png"} alt="Naftaly" />
+    <img src={"naft.PNG"} alt="Naftaly" />
     <h3>Hello, Am Naftaly and I got advice for you</h3>
      <div className="sml">
        <p>{Advice}</p>
