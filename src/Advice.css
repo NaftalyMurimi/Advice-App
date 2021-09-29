@@ -28,7 +28,7 @@ img{
 	height: 400px;
 	width: 400px;
 	-webkit-clip-path:circle(50% at 50% 50%);
-	clip-path:circle(50% at 50% 50%);
+	clip-path:circle(45% at 50% 50%);
 }
 .sml{
 	background-color: whitesmoke;
@@ -71,7 +71,7 @@ button{
 	}
 	img{
 	width: 200px;
-	height: 250px;
+	height: 200px;
 	
 }
 }
