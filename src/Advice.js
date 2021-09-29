@@ -36,7 +36,7 @@ const [seek, setSeek] = useState('');
        <p>{Advice}</p>
       <button onClick={Refresh}>Seek Advice </button> 
       </div>
-      <div>To seek advice click on the button above</div>
+      <h3>To seek advice click on the button above</h3>
      
     </div>
     
