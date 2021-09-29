@@ -1,26 +1,77 @@
-.App{
-    
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100vh;
+	background-color: greenyellow;
+
+}
+.big{
+	background-color: rgb(18, 185, 214);
     height: 100vh;
-    background-color: darkorchid;
-    border: 5px solid yellowgreen;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
 }
 .small{
-    width: 60%;
-    height: 200px;
-    
-    
-    border-radius: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
-    Geneva, Verdana, sans-serif;
-    border: 5px solid yellowgreen;
-    background-color: goldenrod;
-    
+
+	align-items: center;
+	justify-content: space-around;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+
+
+}
+img{
+	width: 250px;
+	height: 300px;
+	margin-top: 20px;
+	height: 400px;
+	width: 400px;
+	-webkit-clip-path:circle(50% at 50% 50%);
+	clip-path:circle(40% at 50% 50%);
+}
+.sml{
+	background-color: whitesmoke;
+	border-radius: 5px;
+	border: 2px groove greenyellow;
+	opacity: 0.6;
+	width: 700px;
+	color: black;
+	height: 200px;
+	font-size: 20px;
+	align-items: center;
+	justify-content: space-around;
+	display: flex;
+	flex-direction: column;
+}
+.pp{
+	margin: auto;
+	padding: 15px;
 }
 button{
-    background-color: cadetblue;
-    margin-left: 20px;
+	width: 150px;
+	height: 40px;
+	background-color: greenyellow;
+	border-radius: 5px;
+	border: 2px solid cyan;
+}
+@media all and (max-width: 700px){
+	.sml{
+		width: 90%;
+		height: 250px;
+	}
+	.pp{
+		font-size: 16px;
+		margin-top: 10px;
+	}
+	h3{
+		width: 80%;
+		font-size: 12px;
+		margin: 4px;
+	}
+	img{
+	width: 200px;
+	height: 250px;
+	
+}
 }

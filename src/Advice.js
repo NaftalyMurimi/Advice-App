@@ -29,11 +29,14 @@ const [seek, setSeek] = useState('');
     
         
   return (
-    <div className="advi">
-     <div className="small">
+    <div className="small">
+    <img src={"naf.png"} alt="Naftaly" />
+    <h3>Hello, Am Naftaly and I got advice for you</h3>
+     <div className="sml">
        <p>{Advice}</p>
       <button onClick={Refresh}>Seek Advice </button> 
       </div>
+      <div>To seek advice click on the button above</div>
      
     </div>
     

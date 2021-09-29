@@ -4,15 +4,15 @@ import Advice from './Advice';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="big">
+      
         
         <p>
           The Farmer says:
         </p>
         
         <Advice/>
-      </header>
+      
     </div>
   );
 }
