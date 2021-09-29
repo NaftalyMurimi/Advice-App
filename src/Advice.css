@@ -28,7 +28,7 @@ img{
 	height: 400px;
 	width: 400px;
 	-webkit-clip-path:circle(50% at 50% 50%);
-	clip-path:circle(40% at 50% 50%);
+	clip-path:circle(50% at 50% 50%);
 }
 .sml{
 	background-color: whitesmoke;
